@@ -1,6 +1,6 @@
 # ChangeFileExtension.csp
 
-Change file extension in strings
+Change file extension strings
 
 ### Author
 
@@ -30,12 +30,12 @@ ChangeFileExtension.csp
 
 | Name | Type | Rate | Minimum | Maximum | Description |
 |---|---|---|---|---|---|
-| SpathIn | string | undefined | undefined | undefined | Path string variable |
-| Sextension | string | undefined | undefined | undefined | File extension string variable |
+| SpathIn | string | undefined | undefined | undefined | Input path |
+| Sextension | string | undefined | undefined | undefined | Input extension to change to |
 
 
 ## Outputs 
 
 | Name | Type | Rate | Minimum | Maximum | Description |
 |---|---|---|---|---|---|
-| SpathOut | string | undefined | undefined | undefined | Output path string |
+| SpathOut | string | undefined | undefined | undefined | Output path |
